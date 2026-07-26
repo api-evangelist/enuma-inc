@@ -1,19 +1,53 @@
 aid: enuma-inc
 name: Enuma, Inc.
-description: Enuma, Inc. is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Enuma, Inc. is a Berkeley, California educational technology company that builds
+  award-winning, self-guided digital learning apps for young children, including the
+  Todo Math series, Todo Classroom, and the Kitkit School / Enuma Global program.
+  Founded by Sooinn Lee and Gunho Lee, Enuma designs research-based, game-like early
+  literacy and numeracy experiences that work for all learners, including children with
+  special needs and those in low-resource settings. The company co-won the $10M Global
+  Learning XPRIZE for its open-source Kitkit School tablet curriculum. Enuma is a consumer
+  and classroom education company that ships mobile applications through the Apple App Store
+  and Google Play; it does not currently publish a public developer API, SDK, or event
+  surface. This profile was surfaced as a 500 Global portfolio company and enriched with
+  verified company identity by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/enuma-inc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://enuma.com/img/meta/img_meta_enuma.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-enrichment-note: >-
+  Probed 2026-07-19 — enuma.com is a client-rendered Next.js marketing site (5 sitemap
+  pages: home, aboutUs, todoSeries, todoClassroom, enumaGlobal); robots.txt disallows all.
+  No API, developer portal, docs, SDK, /.well-known/ (all 200s are soft-404 catch-alls),
+  MCP, webhook, or event surface exists. No artifacts produced (no-fabrication).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Early Childhood Education
+- Learning Apps
+- Mobile Apps
+- Special Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,10 @@ maintainers:
 common:
 - type: Website
   url: https://enuma.com
+- type: About
+  url: https://enuma.com/aboutUs
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

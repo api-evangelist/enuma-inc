@@ -37,7 +37,7 @@ x-enrichment-note: >-
   pages: home, aboutUs, todoSeries, todoClassroom, enumaGlobal); robots.txt disallows all.
   No API, developer portal, docs, SDK, /.well-known/ (all 200s are soft-404 catch-alls),
   MCP, webhook, or event surface exists. No artifacts produced (no-fabrication).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:

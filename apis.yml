@@ -1,5 +1,5 @@
 aid: enuma-inc
-name: Enuma, Inc.
+name: Enuma
 description: >-
   Enuma, Inc. is a Berkeley, California educational technology company that builds
   award-winning, self-guided digital learning apps for young children, including the
@@ -83,3 +83,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Enuma, Inc.
